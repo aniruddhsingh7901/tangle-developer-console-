@@ -1,47 +1,66 @@
-# Polkadot Developer Console
+# Tangle Developer Console
 
-A Next-Generation Polkadot Developer Console.
+A developer console for interacting with the Tangle Network, forked from the Polkadot Developer Console.
 
-## Prerequisites
+## Overview
 
-Before you begin, ensure you have the following installed on your local machine:
+The Tangle Developer Console provides a user interface for interacting with Tangle Network nodes. It allows developers and users to:
+- Connect to Tangle Network nodes
+- View network information
+- Manage accounts
+- Monitor validators
+- Interact with smart contracts
+- View chain state
 
-- **Node.js** (version 20.x or later)
-- **Yarn** (version 4.x or later)
+## Current Status
+- Base configuration for Tangle Network completed
+- Network endpoints configured
+- UI components adapted for Tangle
+- Working on validator state integration
 
-## Installation
+## Setup
 
-Follow these steps to set up the project on your local machine:
+### Prerequisites
+- Node.js (v16 or later)
+- Yarn package manager
 
-1. **Clone the repository**
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/aniruddhsingh7901/tangle-developer-console-.git
 
-   ```bash
-   git clone https://github.com/polkadot-cloud/polkadot-developer-console.git
-   cd polkadot-developer-console
-   ```
+# Navigate to the project directory
+cd tangle-developer-console
 
-2. **Install dependencies**
-
-Use Yarn to install the necessary dependencies:
-
-```
+# Install dependencies
 yarn install
-```
 
-3. **Start the development server**
-
-Once the dependencies are installed, you can start the development server:
-
-```
+# Start the development server
 yarn dev
-```
 
-4. **Building for Production**
+Configuration
+The console is configured to connect to the following Tangle Network endpoints:
 
-To create a production build of the application, run:
+Mainnet: wss://rpc.tangle.tools
+Testnet: wss://testnet-rpc.tangle.tools
 
-```
-yarn build
-```
+Development Status
+Completed
 
-The production-ready files will be generated in the `build` directory.
+Network configuration
+Basic UI adaptation
+Account management integration
+Chain state queries
+
+In Progress
+
+Validator state integration
+Staking dashboard functionality
+Performance optimizations
+
+Upcoming
+
+Enhanced validator monitoring
+Extended staking features
+Additional network statistics
+
